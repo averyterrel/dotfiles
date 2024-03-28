@@ -1,0 +1,23 @@
+{
+    "hex.builtin.setting.font": {
+        "hex.builtin.setting.font.font_path": "/usr/share/fonts/NerdFonts/ttf/HackNerdFontMono-Regular.ttf",
+        "hex.builtin.setting.font.font_size": 15
+    },
+    "hex.builtin.setting.general": {
+        "hex.builtin.setting.general.auto_load_patterns": 1,
+        "hex.builtin.setting.general.enable_unicode": 1,
+        "hex.builtin.setting.general.network_interface": 0,
+        "hex.builtin.setting.general.save_recent_providers": 1,
+        "hex.builtin.setting.general.show_tips": 0,
+        "hex.builtin.setting.general.sync_pattern_source": 0
+    },
+    "hex.builtin.setting.interface": {
+        "hex.builtin.setting.interface.color": "Dark",
+        "hex.builtin.setting.interface.fps": 60,
+        "hex.builtin.setting.interface.language": "en-US",
+        "hex.builtin.setting.interface.multi_windows": 1,
+        "hex.builtin.setting.interface.pattern_tree_style": 0,
+        "hex.builtin.setting.interface.scaling": 0,
+        "hex.builtin.setting.interface.wiki_explain_language": "en"
+    }
+}

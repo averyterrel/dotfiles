@@ -1,0 +1,41 @@
+" Copyright (C) 2023 by Avery Terrel <averymt@proton.me>
+
+" Permission to use, copy, modify, and/or distribute this software for any
+" purpose with or without fee is hereby granted.
+
+" THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+" REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+" AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+" INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+" LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+" OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+" PERFORMANCE OF THIS SOFTWARE.
+
+colorscheme catppuccin_frappe
+let g:rainbow_active = 1
+set ambiwidth=single	" normal characters take 1 cell
+set colorcolumn=81,101	" markers at cells 81 and 101
+set emoji				" use 2 cells for emojis
+set encoding=utf-8		" open files in utf-8
+set hlsearch			" highlight every search result
+set ignorecase			" ignore search case
+set incsearch			" search while typing
+set laststatus=2		" always show statusline
+set mouse=				" disable mouse
+set nocompatible		" don't try to be vi compatible
+set nowrap				" don't wrap lines
+set number				" show current line number in the gutter
+set relativenumber		" show relative line numbers in the gutter
+set shiftwidth=4		" tabs are 4 cells
+set smarttab			" smart tab insertion
+set tabstop=4			" tabs are 4 cells
+syntax on
+if $TERM =~? "color" || $COLORTERM ==? "truecolor"
+	let &t_8f = "\e[38;2;%lu;%lu;%lum"
+	let &t_8b = "\e[48;2;%lu;%lu;%lum"
+	set termguicolors
+	hi ColorColumn	ctermbg=224	guibg=#F5E0DC
+	hi LineNR		ctermfg=224	guifg=#F5E0DC
+endif
+set statusline=%f[]%=\ %Y%=%=%#LineNr#%l:%c
+nnoremap <silent> <ESC> :noh<CR>

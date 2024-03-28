@@ -1,0 +1,7 @@
+set continue=true
+set continue_album=true
+set follow=true
+set lib_sort=albumartist date album discnumber tracknumber title filename play_count
+set mouse=false
+set repeat=true
+set status_display_program=cmusfm

@@ -1,0 +1,18 @@
+[submodule ".vim/pack/plugins/start/vim-polyglot"]
+	path = .vim/pack/plugins/start/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot
+[submodule ".vim/pack/colors/start/vim-catppuccin"]
+	path = .vim/pack/colors/start/vim-catppuccin
+	url = https://github.com/catppuccin/vim
+[submodule ".vim/pack/plugins/start/rainbow-parentheses"]
+	path = .vim/pack/plugins/start/rainbow-parentheses
+	url = https://github.com/luochen1990/rainbow
+[submodule ".vim/pack/plugins/start/vim-hackernews"]
+	path = .vim/pack/plugins/start/vim-hackernews
+	url = https://github.com/averyterrel/vim-hackernews
+[submodule ".config/fish/pack/fish-catppuccin"]
+	path = .config/fish/pack/fish-catppuccin
+	url = https://github.com/catppuccin/fish
+[submodule ".config/rofi/pack/rofi-catppuccin"]
+	path = .config/rofi/pack/rofi-catppuccin
+	url = https://github.com/catppuccin/rofi
