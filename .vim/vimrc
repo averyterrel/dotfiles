@@ -30,7 +30,7 @@ set shiftwidth=4		" tabs are 4 cells
 set smarttab			" smart tab insertion
 set tabstop=4			" tabs are 4 cells
 syntax on
-if $TERM =~? "color" || $COLORTERM ==? "truecolor"
+if $TERM =~? "color" || $COLORTERM ==? "truecolor" || !empty($WT_SESSION) || has('vcon')
 	let &t_8f = "\e[38;2;%lu;%lu;%lum"
 	let &t_8b = "\e[48;2;%lu;%lu;%lum"
 	set termguicolors
