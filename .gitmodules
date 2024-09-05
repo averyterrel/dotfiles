@@ -16,3 +16,6 @@
 [submodule ".config/rofi/pack/rofi-catppuccin"]
 	path = .config/rofi/pack/rofi-catppuccin
 	url = https://github.com/catppuccin/rofi
+[submodule ".config/hypr/catppuccin-hyprland"]
+	path = .config/hypr/catppuccin-hyprland
+	url = https://github.com/catppuccin/hyprland
