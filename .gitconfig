@@ -1,0 +1,23 @@
+[user]
+	email = averymt@proton.me
+	name = Avery Terrel
+	signingkey = /home/user/.ssh/id_ed25519.pub
+[commit]
+	gpgsign = true
+[submodule]
+	recurse = true
+	shallow = true
+[fetch]
+	parallel = 4
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+[color]
+	ui = auto
+[gpg]
+	format = ssh
+[tag]
+	gpgsign = true
+[gpg "ssh"]
+	allowedSignersFile = /home/user/.ssh/allowed_signers
+[format]
+	signoff = true
