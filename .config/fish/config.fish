@@ -1,3 +1,12 @@
+switch (uname -s)
+    case OpenBSD
+        set OPENBSD (uname -r)
+    case 'CYGWIN_NT*'
+        set CYGWIN (uname -r | cut -d- -f1)
+    case Linux
+        set LINUX (uname -r | cut -d_ -f1)
+end
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 

@@ -21,3 +21,5 @@
 	allowedSignersFile = /home/user/.ssh/allowed_signers
 [format]
 	signoff = true
+[init]
+	defaultBranch = master
